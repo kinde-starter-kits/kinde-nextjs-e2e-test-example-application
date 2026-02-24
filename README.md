@@ -2,7 +2,7 @@
 
 This is a test application built on top of the Kinde Next.js starter kit. Use this application to test end to end user testing features.
 
-This application contains the following `testid` attributes for use in browser testing automation tools: 
+This application contains the following `testid` attributes for use in browser testing automation tools:
 
 - `data-testid="sign-in-button"`
 - `data-testid="sign-up-button"`
@@ -16,30 +16,29 @@ This application contains the following `testid` attributes for use in browser t
 
 ## Setup your local environment
 
-1. [Fork](https://github.com/tamalchowdhury/kinde-test-application.git)
+1. [Fork](https://github.com/kinde-starter-kits/kinde-nextjs-e2e-test-example-application)
 2. Clone the repository
 
-    ```bash
-    git clone https://github.com/<your_github_username>/kinde-test-application.git
-    ```
+   ```bash
+   git clone https://github.com/<your_github_username>/kinde-nextjs-e2e-test-example-application
+   ```
 
 3. Within the project folder install the dependancies
 
-    ```bash
-    cd kinde-test-application
-    npm install
-    ```
-       
+   ```bash
+   cd kinde-nextjs-e2e-test-example-application
+   npm install
+   ```
+
 4. Rename `.env.local.sample` to `.env.local`
 
-    Update the file with your application settings.  These can be found within the backend application details within the Kinde dashboard
+   Update the file with your application settings. These can be found within the backend application details within the Kinde dashboard
 
-    ```
-    KINDE_CLIENT_ID=<your_kinde_client_id>
-    KINDE_CLIENT_SECRET=<your_kinde_client_secret>
-    KINDE_ISSUER_URL=https://<your_kinde_subdomain>.kinde.com
-    ```
-
+   ```
+   KINDE_CLIENT_ID=<your_kinde_client_id>
+   KINDE_CLIENT_SECRET=<your_kinde_client_secret>
+   KINDE_ISSUER_URL=https://<your_kinde_subdomain>.kinde.com
+   ```
 
 ## Setup Kinde
 
@@ -59,24 +58,25 @@ http://localhost:3000
 
 **Note: When you deploy your application, these URLs will have to be updated accordingly**
 
-
 ## Start your app
 
 1. Run the following command in your terminal:
 
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
 
 2. Open `http://localhost:3000` in your browser.
 3. Sign up or sign in for your test user.
 
-    Within the Kinde Dashboard, you will see your new user listed within the user view.
+   Within the Kinde Dashboard, you will see your new user listed within the user view.
 
 # Resources
+
 - [Kinde Next.js SDK Docs](https://docs.kinde.com/developer-tools/sdks/backend/nextjs-sdk/)
 - [Kinde Management API Docs](https://docs.kinde.com/kinde-apis/management/)
 
 # Get help
+
 - [Discord](https://discord.gg/wHX6j7wG5d)
 - [Slack](https://join.slack.com/t/thekindecommunity/shared_invite/zt-26hdaavyc-CfOa06vP23guSwK~~OpFMQ)
